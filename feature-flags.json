@@ -1,0 +1,47 @@
+{
+  "org-a": {
+    "dev": {
+      "feature-1": true,
+      "feature-2": false,
+      "feature-3": true
+    },
+    "qa": {
+      "feature-1": false,
+      "feature-2": true,
+      "feature-3": true
+    },
+    "stage": {
+      "feature-1": true,
+      "feature-2": true,
+      "feature-3": true
+    },
+    "prod": {
+      "feature-1": false,
+      "feature-2": false,
+      "feature-3": false
+    }
+  },
+  "org-b": {
+    "dev": {
+      "feature-1": false,
+      "feature-2": false,
+      "feature-3": true
+    },
+    "qa": {
+      "feature-1": false,
+      "feature-2": true,
+      "feature-3": false
+    },
+    "stage": {
+      "feature-1": true,
+      "feature-2": false,
+      "feature-3": true
+    },
+    "prod": {
+      "feature-1": true,
+      "feature-2": true,
+      "feature-3": false
+    }
+  }
+
+}
